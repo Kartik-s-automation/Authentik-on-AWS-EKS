@@ -1,0 +1,11 @@
+postgresql:
+  enabled: false
+
+externalDatabase:
+  host: rds-endpoint.amazonaws.com  #change the RDS endpoint here
+  user: authentik
+  password: password
+  database: authentik
+
+redis:
+  enabled: true
